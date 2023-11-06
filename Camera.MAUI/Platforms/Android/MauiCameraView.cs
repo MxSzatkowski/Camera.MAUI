@@ -428,7 +428,7 @@ internal class MauiCameraView : GridLayout
 
     }
 
-    public Bitmap TakeSnap()
+    internal Bitmap TakeSnap()
     {
         Bitmap bitmap = null;
         try
